@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
-  url: 'FuYon.github.io',
+  url: 'fuyon.github.io',
   baseUrl: '/nanmi-ko-kawaii/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
