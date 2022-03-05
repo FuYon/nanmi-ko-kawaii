@@ -17,6 +17,22 @@ const config = {
   projectName: 'nanmi-ko-kawaii', // Usually your repo name.
   trailingSlash: false,
 
+  module.exports = {
+  i18n: {
+    defaultLocale: 'zh',
+    locales: ['en', 'fr', 'zh'],
+    localeConfigs: {
+      en: {
+        htmlLang: 'zh-CN',
+      },
+      // You can omit a locale (e.g. fr) if you don't need to override the defaults
+      fa: {
+        direction: 'rtl',
+      },
+    },
+  },
+};
+
   presets: [
     [
       'classic',
