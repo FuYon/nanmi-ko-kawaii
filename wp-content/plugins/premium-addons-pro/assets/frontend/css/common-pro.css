@@ -1,0 +1,51 @@
+/** Common PRO*/
+.premium-loading-feed {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px; }
+  .premium-loading-feed.premium-show-loading {
+    display: block;
+    background: #fff;
+    text-align: center;
+    z-index: 10;
+    -js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
+
+/**Tooltipster*/
+.tooltipster-sidetip .tooltipster-content {
+  background: transparent;
+  text-align: center;
+  padding: 0; }
+
+.premium-tooltipster-base .tooltipster-content {
+  padding: 0.3em 0.6em;
+  -webkit-border-radius: 2px;
+          border-radius: 2px; }
+
+.premium-tooltipster-base .tooltipster-box {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
